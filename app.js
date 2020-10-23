@@ -4,7 +4,7 @@ const path = require("path");
 const bodyparser = require("body-parser")
 const mongoose = require('mongoose');
 mongoose.connect('mongodb+srv://dbuser:dbuser@cluster0.kxphu.mongodb.net/contactDance?retryWrites=true&w=majority', {useNewUrlParser: true,useUnifiedTopology: true});
-const port = process.env.PORT || 8000; 
+const port = process.env.PORT || 8080; 
 
 //defining mongoose schema
 const contactSchema = new mongoose.Schema({
